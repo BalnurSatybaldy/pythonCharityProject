@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Волонтер</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/volunteer.css">
+    <link rel="stylesheet" href="css/reg.css">
+  </head>
+  <body>
+    <div class="nav">
+      <div class="donate_btn">
+        <a href="donate.html">Пожертвовать</a>
+      </div>
+
+      <div class="volunteer_btn">
+        <a href="volunteer.html">Стать волонтером</a>
+      </div>
+
+      <div class="reg_btns">
+        <a href="#log-zatemnenie" class="login_btn">Войти</a>
+        <a href="#reg-zatemnenie" class="reg_btn">Регистрация</a>
+      </div>
+
+      <div class="exit_btn">
+        <a href="#">Выйти</a>
+      </div>
+
+      <div id="log-zatemnenie">
+        <form method="post">
+          <div class="login-form-container">
+            <div class="form-fields">
+              <div class="form-field">
+                <input class="blocks" type="phone number" placeholder="Username">
+              </div>
+              <div class="form-field">
+                <input class="blocks" type="password" placeholder="Пароль">
+              </div>
+            </div>
+            <button class="reg_button" style="margin: 0px">Войти</button>
+            <a href="" class="close"><img src="css/imgs/exit.png" alt=""></a>
+          </div>
+        </form>
+      </div>
+
+      <div id="reg-zatemnenie">
+        <form method="post">
+          <div id="register-form-container">
+            <div class="form-fields">
+              <div class="form-field">
+                <input class="blocks" type="text" placeholder="Username">
+              </div>
+              <div class="form-field">
+                <input class="blocks" type="password" placeholder="Пароль">
+              </div>
+              <div class="form-field">
+                <input class="blocks" type="password" placeholder="Повторите пароль">
+              </div>
+            </div>
+            <div class="form-buttons">
+              <button class="reg_button" type="submit" style="margin: 0px">Регистрация</button>
+            </div>
+            <div class="rule">
+              <a href="" class="close"><img src="css/imgs/exit.png" alt=""></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="volunteer_cards">
+      <div class="volunteer_card">
+        <img src="https://pbs.twimg.com/media/DmT5jImWwAAj6-i.jpg:large" alt="">
+
+        <div class="volunteer_info">
+          <h2>Польза волонтерства</h2>
+          <p>О пользе благотворительности известно давно. Помогая нуждающимся деньгами, временем и другими ресурсами, человек не только становится лучше в моральном плане, но и следует правильному жизненному ориентиру.</p>
+          <a href="#vol-zatemnenie">Стать волонтером</a>
+        </div>
+      </div>
+
+      <div class="volunteer_card">
+        <img src="https://pbs.twimg.com/media/DmT5jImWwAAj6-i.jpg:large" alt="">
+
+        <div class="volunteer_info">
+          <h2>Польза волонтерства</h2>
+          <p>О пользе благотворительности известно давно. Помогая нуждающимся деньгами, временем и другими ресурсами, человек не только становится лучше в моральном плане, но и следует правильному жизненному ориентиру.</p>
+          <a href="#vol-zatemnenie">Стать волонтером</a>
+        </div>
+      </div>
+
+      <div class="volunteer_card">
+        <img src="https://pbs.twimg.com/media/DmT5jImWwAAj6-i.jpg:large" alt="">
+
+        <div class="volunteer_info">
+          <h2>Польза волонтерства</h2>
+          <p>О пользе благотворительности известно давно. Помогая нуждающимся деньгами, временем и другими ресурсами, человек не только становится лучше в моральном плане, но и следует правильному жизненному ориентиру.</p>
+          <a href="#vol-zatemnenie">Стать волонтером</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="vol-zatemnenie">
+
+      <form method="post">
+        <div id="volunteer-form-container">
+          <div class="form-fields">
+            <div class="form-field">
+              <input class="blocks" type="text" placeholder="Фамилия">
+            </div>
+            <div class="form-field">
+              <input class="blocks" type="text" placeholder="Имя">
+            </div>
+            <div class="form-field" style="display: flex">
+              <label for="blocks">+7</label>
+              <input id="blocks" type="phone number" placeholder="Номер телефона" style="border-radius: 0 5px 5px 0;">
+            </div>
+          </div>
+          <div class="form-buttons">
+            <button class="reg_button" type="submit" style="margin: 0px">Участвовать в волонтерстве</button>
+          </div>
+          <div class="rule">
+            <a href="" class="close"><img src="css/imgs/exit.png" alt=""></a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
